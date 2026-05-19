@@ -1,4 +1,4 @@
-const SERVER_URL = import.meta.env.VITE_SERVER_URL?.replace(/^wss?/, (m: string) => m === 'wss' ? 'https' : 'http') || 'http://localhost:3001'
+const SERVER_URL = import.meta.env.VITE_SERVER_URL?.replace(/^wss?/, (m: string) => m === 'wss' ? 'https' : 'http') || 'https://pretext-arena.vercel.app'
 
 export type AuthUser = {
   handle: string
